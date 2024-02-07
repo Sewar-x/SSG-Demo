@@ -1,0 +1,43 @@
+{
+    "apps": [{
+        "name": "app-ssr",
+        "script": "/app/carnetwork/web/demo-fe-webapp-ssr/server.js",
+        "env": {
+            "NODE_ENV": "production",
+            "MICRO_CACHE": true,
+            "PORT": 8887,
+            "MAIN_LANG": "my-en",
+            "STATIC_SOURCE": "dist"
+        }
+      },{
+        "name": "app-ssr-id",
+        "script": "/app/carnetwork/web/demo-fe-webapp-ssr/server.js",
+        "env": {
+            "NODE_ENV": "production",
+            "MICRO_CACHE": true,
+            "PORT": 8886,
+            "MAIN_LANG": "id-id",
+            "STATIC_SOURCE": "dist"
+        }
+    },{
+        "name": "app-ssr-th",
+        "script": "/app/carnetwork/web/demo-fe-webapp-ssr/server.js",
+        "env": {
+            "NODE_ENV": "production",
+            "MICRO_CACHE": true,
+            "PORT": 8885,
+            "MAIN_LANG": "th-th",
+            "STATIC_SOURCE": "dist"
+        }
+    },{
+        "name": "app-ssr-ph",
+        "script": "/app/carnetwork/web/demo-fe-webapp-ssr/server.js",
+        "env": {
+            "NODE_ENV": "production",
+            "MICRO_CACHE": true,
+            "PORT": 8884,
+            "MAIN_LANG": "ph-en",
+            "STATIC_SOURCE": "dist"
+        }
+    }]
+}

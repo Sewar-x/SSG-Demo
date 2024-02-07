@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'dealers';
+  src:  url('fonts/dealers.eot?5pw2uj');
+  src:  url('fonts/dealers.eot?5pw2uj#iefix') format('embedded-opentype'),
+    url('fonts/dealers.ttf?5pw2uj') format('truetype'),
+    url('fonts/dealers.woff?5pw2uj') format('woff'),
+    url('fonts/dealers.svg?5pw2uj#dealers') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}

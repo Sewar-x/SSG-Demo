@@ -1,0 +1,36 @@
+body {
+  margin:0;
+}
+li {
+  list-style: none;
+}
+*, a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var {
+  margin: 0;
+  padding: 0;
+}
+ul, li, span, div, img, section, p {
+  box-sizing: border-box;
+}
+a, a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color:inherit;
+}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('/font/iconfont.eot');
+  src: url('/font/iconfont.eot?#iefix') format('embedded-opentype'), url('/font/iconfont.woff2') format('woff2'), url('/font/iconfont.woff') format('woff'), url('/font/iconfont.ttf') format('truetype'), url('/font/iconfont.svg#iconfont') format('svg');
+}
+
+html {
+  font-size: 26.666666667vw;
+}
+
+@media screen and (min-width: 416px) {
+  html {
+    font-size: 100px; /*no*/
+  }
+}
+img[src=""],img:not([src]){
+    opacity:0;
+}

@@ -1,0 +1,49 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1606734350970'); /* IE9 */
+  src: url('iconfont.eot?t=1606734350970#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAN4AAsAAAAACEAAAAMqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDagqCUIIfATYCJAMkCxQABCAFhG0HgQgbMwfIHpIkFaIk7BFVdSuUiDHi4b/9/rfPzFz9Jg2VxCKpRBJJRJNoI0FodLGQIBMq/V8kk9//rbV/4pineeTziJhG1v7MLatvdrCEh0yli5V8GyJk0yYFnv7/7+fqzNqi+J2+tvVg3swEiT+RyZzOISRxTQlKodTOMHZBS7yeQG+5tMChkakliCvM3QJxU2cyxDNpRWG1Vqgrji0p3qq06XUqA3gT/H78g2LESarM3Pf45WEN+paCw23eG71w0sMxTRcEO4mMrUAhHlWWHwoJxg7pNw47BvRaSZpqeHgYHW5HIxL8IOHabDaHXm/S+iePkGRFpdZoiRrUGgd3VVqWgg4iGAYRiWEIkRmGEYVhFFExXCNqhhtEw3B7ghZ0YDbbsQO4ALEOwQjLXsP3GB8v9WPUFhj1VnpR69nq0bB3hS31MOwyupaXuleX0w9b7VnaClYaT30ej4n8GKriykoXsp6mEHkH6e9ryjD3/OHBb8r49krheX4/wM/Nh3JTU2NTWdv7u98/S+fa/qHDj3B+D6x4n0rts/ez7dtp30of/LT/4zc1ms/y7b6AkSyvBKSP6QTSq4CTx9MEe3/wjLLFH6dNfxEIft57P9amuv63qQJ+PX1XwchImb7SSnQ2/ajVSiOgcIvp6YqyiIOxkJ0S6IwPDCf+zhJ+U3zW/bR6bE6CoeWWAdHGMgRZay2+kLdCZcx2qLX2Qm+L0ZPHzOFConTY7BhAmHYFyaTvkE3z8YV8B5VFr1CbjhD0TkT9OcesDz05yFEWqBFlh+iqY1PbJ5Jh7wKyDVPmaUsgXEHu6TlSyObztVG0kU9xgLfJikJQQrljkRFwMzRNh7jcWUdVZEtCuB25HK36oqzqWJB0EIdkAtIQih2ETuWwUW95IVn4+QWI2WCS8YZFVc0ViPPoaycKsvId8KNOu9OiW3mJZxNTJAgUQXEOCzECtkImk4Nwq7dah1RCVmlA0dUhZ2HRrs7s8m7rXa+AnvmNXaTIUaKKOppoo4tee85mJmY23JTMubOV4ToriWRSMZGKOFl/w42opuNhUta0jG83b6Ka8mRLx+bWNs0J2QAA') format('woff2'),
+  url('iconfont.woff?t=1606734350970') format('woff'),
+  url('iconfont.ttf?t=1606734350970') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1606734350970#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-angle-up:before {
+  content: "\e602";
+}
+
+.icon-arrow-right:before {
+  content: "\e743";
+}
+
+.icon-arrow-left:before {
+  content: "\e744";
+}
+
+.icon-arrow-up:before {
+  content: "\e745";
+}
+
+.icon-close:before {
+  content: "\e747";
+}
+
+.icon-add-select:before {
+  content: "\e7b0";
+}
+
+.icon-sami-select:before {
+  content: "\e7b1";
+}
+
+.icon-arrow-down:before {
+  content: "\e7b2";
+}
+

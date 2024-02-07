@@ -1,0 +1,102 @@
+.editor-detail {
+  font-size: 0.16rem;
+  line-height: 1.2;
+  // line-height: auto;
+  figcaption {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.4);
+    margin-top: -0.06rem;
+    font-style: italic;
+    font-size: 0.13rem;
+  }
+  ol {
+    display: block;
+    list-style-type: decimal;
+  }
+  ol li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    list-style-type: decimal;
+    margin-left: 0.3rem;
+    line-height: 0.24rem;
+  }
+  ul li {
+    list-style: disc outside none;
+    margin-left: 0.3rem !important;
+    word-break: break-word;
+    line-height: 0.24rem;
+  }
+  img {
+    width: 100%;
+    height: auto;
+    float: none;
+  }
+  iframe[src*='youtube'] {
+    width: 100%;
+    height: 2rem;
+  }
+  .fb-post {
+    width: 100% !important;
+    > span {
+      width: 100% !important;
+      > iframe {
+        width: 100% !important;
+      }
+    }
+  }
+  p {
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    word-break: break-word;
+    margin: 0.16rem 0 !important;
+    line-height: 0.24rem;
+  }
+
+  h2 {
+    margin: 0.24rem 0 0.12rem 0 !important;
+  }
+  h1 {
+    margin: 0.24rem 0 0.12rem 0 !important;
+  }
+  table {
+    width: 100% !important;
+    border-collapse: collapse;
+    td {
+      padding: 0 10px;
+      word-break: break-word;
+      border: 1px solid #ccc;
+    }
+  }
+  a,
+  a:link,
+  a:visited,
+  a:hover,
+  a:active {
+    font-weight: bold !important;
+    color: $a-link-font-color !important;
+  }
+  a {
+    span {
+      font-weight: bold !important;
+      color: $a-link-font-color !important;
+    }
+  }
+  .new-img-container {
+    background: url('~@/assets/default/logo.png') no-repeat center center;
+    background-size: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    background-color: #eeeeee;
+    margin: 0.1rem 0;
+    min-height: 0.8rem;
+    line-height: 0;
+  }
+  .new-table-container {
+    width: 100%;
+    overflow-x: scroll;
+  }
+}

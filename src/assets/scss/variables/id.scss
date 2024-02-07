@@ -1,0 +1,20 @@
+$primary-color: #FFC400;
+$button-linear-gradient-bgc:linear-gradient(270deg,rgba(255,196,0,1) 0%,rgba(255,214,0,1) 100%);
+$button-linear-gradient-latestcar:linear-gradient(270deg,rgba(255,196,0,1) 0%,rgba(255,214,0,1) 100%);
+$button-font-color:#2a2a2a;
+$button-shadow:0px 2px 11px 0px rgba(255,205,0,0.3);;
+$header-bgc:#FFC400;
+$primary-color-light: rgba(255, 196, 0, 0.2);
+$shadow-color: $primary-color-light;
+$logo-height:.25rem;//header logo的高度
+$logo-height-index:.25rem;//首页header logo的高度
+$logo-width-index:1.51rem;
+$hot-models-tab-bgc:rgba(255,196,0,0.15);
+// $hot-models-tab-color:#FFC400;
+$news-label-bgc:rgba(255,196,0,0.7);
+$a-link-font-color:#0085FF;//正文a标签字体颜色
+$price-color:#0085FF;//价格字体的颜色
+$footer-logo-height:.29rem;
+$add-more-car-bg:rgba(255,196,0,0.9);
+$news-content-img-bg:url('~@/assets/images/id/news-image-background.png') no-repeat center center;//资讯正文图片的占位图
+$home-banner-img-bg:#eee url('~@/assets/images/id/news-image-background.png') no-repeat center center;//首页banner图片的占位图

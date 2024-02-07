@@ -1,0 +1,36 @@
+$primary-color: #FFC400;
+$button-linear-gradient-bgc:linear-gradient(270deg,rgba(255,196,0,1) 0%,rgba(255,214,0,1) 100%);
+$button-linear-gradient-latestcar:linear-gradient(270deg,rgba(255,196,0,1) 0%,rgba(255,214,0,1) 100%);
+$button-font-color:#2a2a2a;
+$button-shadow:0px 2px 11px 0px rgba(255,205,0,0.3);;
+$header-bgc:#fff;
+$primary-color-light: rgba(255, 196, 0, 0.2);
+$shadow-color: $primary-color-light;
+$logo-height: 28px;//header logo的高度
+$logo-height-index: 30px;//首页header logo的高度
+$logo-width-index: auto;
+$hot-models-tab-bgc:rgba(255,196,0,0.15);
+// $hot-models-tab-color:#FFC400;
+$news-label-bgc:rgba(255,196,0,0.7);
+$a-link-font-color:#FFC400;//正文a标签字体颜色
+$price-color:#0085FF;//价格字体的颜色
+$footer-logo-height:.29rem;
+$footer-logo-width: 100%;
+$add-more-car-bg:rgba(255,196,0,0.9);
+$news-content-img-bg:url('~@/assets/images/autofun/image-default.svg') no-repeat center center;//资讯正文图片的占位图
+$home-banner-img-bg:#eee url('~@/assets/images/autofun/image-default.svg') no-repeat center center;//首页banner图片的占位图
+$new-primary-color: #FFC400; //车系页面
+$model-view-specs-button:rgba(255,196,0,0.1);
+$head-login-button:rgba(255,196,0,1);
+$comment-addComment:linear-gradient(270deg,#ffc400,#ffd600);
+$comment-addComment-shadow:0 0.02rem 0.11rem 0 rgba(255,205,0,.3);
+$comment-addComment-color:#2a2a2a;
+$user-review-background: #2a2a2a;
+$specs-active-color: rgba(255,196,0,.2);
+$specs-active-background: rgba(255, 196, 0, .1);
+$tools-calculator-item-label: #2A2A2A;
+$color-primary: #FFC400;
+$app-header-button-font-color:#2a2a2a;
+$app-header-button-bg-color:rgba(255,196,0,0.10);
+$button-font-color: #2a2a2a;
+$button-box-shadow: 0px 2px 10px 0px rgba(255,196,0,0.30); 

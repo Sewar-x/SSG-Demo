@@ -1,0 +1,61 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": ["standard", "plugin:vue/vue3-recommended"],
+  "plugins": ["html", "vue"],
+  "parser": "vue-eslint-parser",
+  "parserOptions": {
+    // "parser": "babel-eslint",
+    "parser": "@typescript-eslint/parser", 
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "legacyDecotators": true
+    }
+  },
+  "rules": {
+    "no-dupe-keys": "off",
+    "no-new": "off",
+    "no-useless-escape": "off",
+    "no-unused-vars": "off",
+    "no-shadow":"off",
+    "prefer-promise-reject-errors": "off",
+    "eqeqeq": "off",
+    "promise/param-names": "off",
+    "vue/component-tags-order": "off",
+    "vue/require-prop-types": "off",
+    "vue/no-deprecated-dollar-listeners-api": "off",
+    "vue/no-deprecated-slot-attribute": "off",
+    "vue/no-deprecated-filter": "off",
+    "vue/no-v-html": "off",
+    "vue/custom-event-name-casing": "off",
+    "vue/require-default-prop": "off",
+    "vue/this-in-template": "off",
+    "vue/require-prop-type-constructor": "off",
+    "vue/no-v-model-argument": "off",
+    "vue/no-deprecated-v-bind-sync": "off",
+    "vue/no-mutating-props": "off",
+    "vue/singleline-html-element-content-newline": "off",
+    "no-tabs": "off",
+    "no-undef": "off",
+    "no-irregular-whitespace": "off",
+    "node/no-deprecated-api": "off",
+    "no-unreachable": "off",
+    "no-case-declarations": "off",
+    "vue/no-deprecated-destroyed-lifecycle": "off",
+    "space-before-function-paren": "off",
+    "vue/require-explicit-emits": "off",
+    "no-async-promise-executor": "off",
+    "no-global-assign": "off",
+    "import/no-named-default": "off",
+    "vue/no-deprecated-v-on-native-modifier": "off",
+    "quotes": [
+      "error",
+      "single",
+      { "avoidEscape": true, "allowTemplateLiterals": true }
+    ]
+  }
+}

@@ -1,0 +1,223 @@
+@font-face {
+  font-family: 'dealers';
+  src:  url('fonts/dealers.eot?940pno');
+  src:  url('fonts/dealers.eot?940pno#iefix') format('embedded-opentype'),
+    url('fonts/dealers.ttf?940pno') format('truetype'),
+    url('fonts/dealers.woff?940pno') format('woff'),
+    url('fonts/dealers.svg?940pno#dealers') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'dealers' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-zero:before {
+  content: "\30";
+}
+.icon-one:before {
+  content: "\31";
+}
+.icon-two:before {
+  content: "\32";
+}
+.icon-three:before {
+  content: "\33";
+}
+.icon-four:before {
+  content: "\34";
+}
+.icon-five:before {
+  content: "\35";
+}
+.icon-six:before {
+  content: "\36";
+}
+.icon-seven:before {
+  content: "\37";
+}
+.icon-eight:before {
+  content: "\38";
+}
+.icon-nine:before {
+  content: "\39";
+}
+.icon-A:before {
+  content: "\41";
+}
+.icon-B:before {
+  content: "\42";
+}
+.icon-C:before {
+  content: "\43";
+}
+.icon-D:before {
+  content: "\44";
+}
+.icon-E:before {
+  content: "\45";
+}
+.icon-F:before {
+  content: "\46";
+}
+.icon-G:before {
+  content: "\47";
+}
+.icon-H:before {
+  content: "\48";
+}
+.icon-I:before {
+  content: "\49";
+}
+.icon-J:before {
+  content: "\4a";
+}
+.icon-K:before {
+  content: "\4b";
+}
+.icon-L:before {
+  content: "\4c";
+}
+.icon-M:before {
+  content: "\4d";
+}
+.icon-N:before {
+  content: "\4e";
+}
+.icon-O:before {
+  content: "\4f";
+}
+.icon-P:before {
+  content: "\50";
+}
+.icon-Q:before {
+  content: "\51";
+}
+.icon-R:before {
+  content: "\52";
+}
+.icon-S:before {
+  content: "\53";
+}
+.icon-T:before {
+  content: "\54";
+}
+.icon-U:before {
+  content: "\55";
+}
+.icon-V:before {
+  content: "\56";
+}
+.icon-W:before {
+  content: "\57";
+}
+.icon-X:before {
+  content: "\58";
+}
+.icon-Y:before {
+  content: "\59";
+}
+.icon-Z:before {
+  content: "\5a";
+}
+.icon-a:before {
+  content: "\61";
+}
+.icon-b:before {
+  content: "\62";
+}
+.icon-c:before {
+  content: "\63";
+}
+.icon-d:before {
+  content: "\64";
+}
+.icon-e:before {
+  content: "\65";
+}
+.icon-f:before {
+  content: "\66";
+}
+.icon-g:before {
+  content: "\67";
+}
+.icon-h:before {
+  content: "\68";
+}
+.icon-i:before {
+  content: "\69";
+}
+.icon-j:before {
+  content: "\6a";
+}
+.icon-k:before {
+  content: "\6b";
+}
+.icon-l:before {
+  content: "\6c";
+}
+.icon-m:before {
+  content: "\6d";
+}
+.icon-n:before {
+  content: "\6e";
+}
+.icon-o:before {
+  content: "\6f";
+}
+.icon-p:before {
+  content: "\70";
+}
+.icon-q:before {
+  content: "\71";
+}
+.icon-r:before {
+  content: "\72";
+}
+.icon-s:before {
+  content: "\73";
+}
+.icon-t:before {
+  content: "\74";
+}
+.icon-u:before {
+  content: "\75";
+}
+.icon-v:before {
+  content: "\76";
+}
+.icon-w:before {
+  content: "\77";
+}
+.icon-x:before {
+  content: "\78";
+}
+.icon-y:before {
+  content: "\79";
+}
+.icon-z:before {
+  content: "\7a";
+}
